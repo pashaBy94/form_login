@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "PTSans-B";
+  src: url("../../fonts/PTSans-Bold.ttf");
+}
+@font-face {
+  font-family: "PTSans-R";
+  src: url("../../fonts/PTSans-Regular.ttf");
+}
+@font-face {
+  font-family: "WorkSans-EL";
+  src: url("../../fonts/WorkSans-ExtraLight.ttf");
+}
+@font-face {
+  font-family: "WorkSans-L";
+  src: url("../../fonts/WorkSans-Light.ttf");
+}
+@font-face {
+  font-family: "WorkSans-R";
+  src: url("../../fonts/WorkSans-Regular.ttf");
+}/*# sourceMappingURL=fonts.css.map */

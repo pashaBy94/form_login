@@ -1,0 +1,83 @@
+@font-face {
+  font-family: "PTSans-B";
+  src: url("../../fonts/PTSans-Bold.ttf");
+}
+@font-face {
+  font-family: "PTSans-R";
+  src: url("../../fonts/PTSans-Regular.ttf");
+}
+@font-face {
+  font-family: "WorkSans-EL";
+  src: url("../../fonts/WorkSans-ExtraLight.ttf");
+}
+@font-face {
+  font-family: "WorkSans-L";
+  src: url("../../fonts/WorkSans-Light.ttf");
+}
+@font-face {
+  font-family: "WorkSans-R";
+  src: url("../../fonts/WorkSans-Regular.ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: 100;
+}
+
+body {
+  margin-top: 60px;
+  font-family: WorkSans-L, Arial, sans-serif;
+  font-size: 14px;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.back__modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-color: #F4F5FC;
+}
+
+.body {
+  font-family: WorkSans-L;
+  width: 665px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  margin: 0 auto;
+  background-color: white;
+}
+
+.modal {
+  display: grid;
+  position: relative;
+  height: 100%;
+  grid-template-columns: 138px 7fr;
+  grid-template-rows: 481px;
+}
+.modal__left {
+  background-color: #5A61ED;
+  position: relative;
+}
+.modal__left-title {
+  position: absolute;
+  bottom: 22px;
+  right: 6px;
+  font-family: PTSans-R;
+  display: inline;
+  color: white;
+  font-size: 49px;
+  line-height: 63px;
+  letter-spacing: 0.5px;
+  transform: rotate(180deg);
+  writing-mode: vertical-lr;
+}
+.modal__right {
+  padding: 38px 22px 32px 21px;
+}/*# sourceMappingURL=style.css.map */
